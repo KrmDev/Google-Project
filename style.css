@@ -104,12 +104,11 @@ li {
   border-color: rgba(223, 225, 229, 0);
 }
 
- /* *{
+/* *{
   border: 2px solid red;
 }  */
 
 .button {
-  
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
@@ -138,18 +137,17 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
 }
- 
+
 #div-p {
   color: #4d5156;
-    /* display: inline-block; */
-    line-height: 28px;
-    position: absolute;
-    top: 53%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+  /* display: inline-block; */
+  line-height: 28px;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .a-lang {
@@ -160,3 +158,44 @@ li {
 .a-lang:hover {
   text-decoration: underline;
 }
+/* <!-- -----------------------------------------Footer-------------------------------------------------------- --> */
+#footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #70757a;
+}
+
+.footer-left {
+padding: 15px;
+position: relative;
+right: 28%;
+
+}
+
+.footer-mid {
+  
+}
+
+.footer-right {
+
+}
+ 
+#france {
+
+}
+
+
+/* ------------------- */
+
+/* .footer-parent{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  
+} */
